@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="auth" />
-        <module name="backend" />
         <module name="frontend" />
+        <module name="gateway" />
+        <module name="EurekaPrimaryServer" />
+        <module name="m-service1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
