@@ -9,14 +9,9 @@ zuul:
     auth:
       path: /oauth/**
       url: http://localhost:8181/oauth/
+    users:
+      path: /users/**
+      url: http://localhost:8181/users
     secure:
       path: /secure/**
       url: http://localhost:8082/secure
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
