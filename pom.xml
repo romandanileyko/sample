@@ -9,14 +9,12 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>bom</module>
+        <module>parent</module>
+        <module>EurekaPrimaryServer</module>
         <module>gateway</module>
         <module>frontend</module>
         <module>m-service1</module>
-        <module>EurekaPrimaryServer</module>
+        <module>m-service2</module>
     </modules>
-    <properties>
-        <spring.boot.version>2.1.7.RELEASE</spring.boot.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
 </project>

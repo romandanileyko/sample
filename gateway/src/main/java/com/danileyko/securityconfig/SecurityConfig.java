@@ -1,5 +1,6 @@
 package com.danileyko.securityconfig;
 
+
 import com.google.common.collect.ImmutableList;
 import org.apache.catalina.filters.CorsFilter;
 import org.springframework.beans.factory.annotation.Autowired;

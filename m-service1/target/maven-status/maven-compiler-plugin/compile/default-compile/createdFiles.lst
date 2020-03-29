@@ -1,0 +1,3 @@
+com\danileyko\securityconfig\ResourceServerConfig.class
+com\danileyko\controllers\SecureController.class
+com\danileyko\MicroService1Application.class
