@@ -1,0 +1,8 @@
+/EurekaPrimaryServer/target/
+/frontend/target/
+/gateway/target/
+/m-service1/target/
+/m-service2/target/
+/parent/target/
+/.idea/
+/frontend/src/main/web/frontendApp/node/
